@@ -8,7 +8,7 @@
         "x": 416.0885364955418,
         "y": -74.64623359488957
       },
-      "type": "customNode",
+      "type": "自定义节点",
       "data": {
         "id": "pinecone_0",
         "label": "Pinecone",
@@ -20,8 +20,8 @@
           "VectorStoreRetriever",
           "BaseRetriever"
         ],
-        "category": "Vector Stores",
-        "description": "Upsert embedded data and perform similarity or mmr search using Pinecone, a leading fully managed hosted vector database",
+        "category": "向量数据库",
+        "description": "使用行业领先的全托管向量数据库Pinecone，实现嵌入数据的插入更新操作，并执行相似性搜索或最大边际相关性（MMR）搜索",
         "inputParams": [
           {
             "label": "Connect Credential",
